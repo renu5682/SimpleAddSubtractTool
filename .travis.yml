@@ -5,4 +5,4 @@ install:
   - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory SimpleAddSubtractToolTestRunner
 script:
   - xbuild /p:Configuration=Release SimpleAddSubtractTool.sln
-  - mono ./SimpleAddSubtractToolTestRunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./SimpleAddSubtractTool/SimpleAddSubtractToolTests/bin/Release/SimpleAddSubtractToolTests.dll
+  - mono ./SimpleAddSubtractToolTestRunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./SimpleAddSubtractToolTests/bin/Release/SimpleAddSubtractToolTests.dll
