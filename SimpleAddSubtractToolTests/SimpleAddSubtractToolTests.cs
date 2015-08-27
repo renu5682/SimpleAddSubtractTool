@@ -13,4 +13,10 @@ public class SimpleAddSubtractToolTests
         SimpleAddSubtractTool sas = new SimpleAddSubtractTool();
         Assert.AreEqual(10, sas.Add(5, 5));
     }
+    [Test]
+    public void AreTheValuesTheSame()
+    {
+        SimpleAddSubtractTool sas = new SimpleAddSubtractTool();
+        Assert.AreSame(10, sas.Add(5, 6));
+    } 
 }
