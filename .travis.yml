@@ -6,3 +6,11 @@ install:
 script:
   - xbuild /p:Configuration=Release SimpleAddSubtractTool.sln
   - mono ./SimpleAddSubtractToolTestRunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./SimpleAddSubtractToolTests/bin/Release/SimpleAddSubtractToolTests.dll
+deploy:
+   edge: true
+   provider: cloudfoundry
+   username: renu.ap@gmail.com
+   password: hE:cGIQ@5hyk
+   api: api.beta.ironfoundry.me
+   organization: RENU
+   space: staging
