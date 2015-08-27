@@ -7,7 +7,7 @@
     <ProjectGuid>{96806366-3AF8-4F1F-9DAA-4403EE9CF07A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SimpleAddSubtractTool</RootNamespace>
+    <RootNamespace>SimpleAddSubtractToolTests</RootNamespace>
     <AssemblyName>SimpleAddSubtractToolTests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
